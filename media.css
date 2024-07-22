@@ -1,0 +1,319 @@
+/* sm */
+@media screen and (min-width:640px) {
+    .head {
+        justify-content: space-between;
+    }
+
+    .enjoy_div {
+        flex-direction: column-reverse;
+        height: 200vh;
+
+
+    }
+
+    .start {
+        padding-top: 0px;
+    }
+
+    .start_image {
+        width: 100%;
+
+    }
+
+    .start_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .buttons {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .our_chefs_flex {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .chef {
+        width: 48%;
+
+    }
+
+    .chefs_name strong {
+        font-size: 18px;
+    }
+
+    .chefs_name span {
+        font-size: 13px;
+    }
+
+    .para_des {
+        font-size: 12px;
+    }
+
+    .wave_img {
+        bottom: 8%;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    form {
+        flex-direction: row;
+    }
+
+    .form1 {
+        width: 100%;
+    }
+
+    .part2 {
+        flex-direction: column-reverse;
+    }
+
+}
+
+/* md */
+@media screen and (min-width:768px) {
+    .wave_img {
+        bottom: 9%;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .start {
+        padding-top: 70px;
+    }
+
+    .part2 {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .foot2 {
+        width: 100%;
+    }
+
+}
+
+/* lg */
+@media screen and (min-width:1024px) {
+    .reverse {
+        width: 65%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .darkMode-icon {
+        width: 35%;
+    }
+
+    .header_list {
+        width: 30%;
+    }
+
+    .logo {
+        width: 35%;
+        font-size: 20px;
+    }
+
+    .header_list ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .header_list li {
+        margin-right: 20px;
+    }
+
+    .enjoy_div {
+        flex-direction: row;
+        height: 110vh;
+        justify-content: space-between;
+    }
+
+    .start {
+        padding-top: 0px;
+    }
+
+    .start_image {
+        width: 40%;
+
+    }
+
+    .start_content {
+        text-align: center;
+        width: 40%;
+    }
+
+    .buttons {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .our_chefs_flex {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    .chef {
+        width: 32%;
+
+    }
+
+    .chefs_name strong {
+        font-size: 20px;
+    }
+
+    .chefs_name span {
+        font-size: 15px;
+    }
+
+    .para_des {
+        font-size: 16px;
+    }
+
+    .wave_img {
+        bottom: 15%;
+        opacity: 0;
+    }
+
+    .Gallery_flex {
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .food_img {
+        width: 30%;
+        margin-top: 30px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .info {
+        width: 45%;
+    }
+
+    form {
+        flex-direction: row;
+    }
+
+    .form1 {
+        width: 49.5%;
+    }
+
+    .footer {
+
+        height: 75vh;
+    }
+
+    .foot {
+
+        flex-direction: row;
+    }
+
+    .foot1 {
+        width: 24%;
+
+    }
+
+    .foot2 {
+        width: 50%;
+    }
+
+    .btn-input {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-input input {
+        width: 74%;
+    }
+
+    .foot3 {
+        width: 24%;
+        align-items: initial;
+    }
+
+    .part2 {
+        flex-direction: row;
+        width: 73%;
+        justify-content: space-around;
+    }
+
+    .li_home::before {
+        content: "";
+        width: 50px;
+        height: 2px;
+        background-color: #CE1212;
+        position: absolute;
+        top: 30px;
+    }
+
+    .li_rest::before {
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: #CE1212;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        left: 0;
+        opacity: 0;
+        overflow: hidden;
+
+    }
+
+    .li_rest:hover::before {
+        animation: line 0.5s forwards;
+    }
+
+    .contact_header {
+        font-size: 55px;
+    }
+
+    .para {
+        font-size: 55px;
+    }
+
+    .info {
+        width: 47%;
+    }
+
+    .info i {
+        right: 16px;
+    }
+}
+
+/* xl */
+@media screen and (min-width:1280px) {
+    .wave_img {
+        bottom: 13%;
+        opacity: 1;
+    }
+
+    .info {
+        width: 48%;
+    }
+
+    .start {
+        padding-top: 30px;
+    }
+}
+
+/* 2xl */
+@media screen and (min-width:1536px) {}
